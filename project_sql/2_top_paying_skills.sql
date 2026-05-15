@@ -10,7 +10,7 @@ WITH top_paying_skills AS (
     LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
     WHERE
         job_title = 'Data Analyst' AND 
-        job_location ='United States' AND 
+        job_location ='Anywhere' AND 
         salary_year_avg IS NOT NULL
     ORDER BY salary_year_avg DESC
     LIMIT 10
@@ -46,379 +46,387 @@ SQL and Python are the most common technical skills in the highest-paying postin
 
 /*[
   {
-    "job_id": 321008,
+    "job_id": 712473,
     "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "company_name": "Get It Recruit - Information Technology",
     "skills": "sql"
   },
   {
-    "job_id": 321008,
+    "job_id": 712473,
     "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "company_name": "Get It Recruit - Information Technology",
     "skills": "python"
   },
   {
-    "job_id": 321008,
+    "job_id": 712473,
     "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
-    "skills": "scala"
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "company_name": "Get It Recruit - Information Technology",
+    "skills": "r"
   },
   {
-    "job_id": 321008,
+    "job_id": 712473,
     "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
-    "skills": "java"
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "company_name": "Get It Recruit - Information Technology",
+    "skills": "sas"
   },
   {
-    "job_id": 321008,
+    "job_id": 712473,
     "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
-    "skills": "ruby"
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "company_name": "Get It Recruit - Information Technology",
+    "skills": "matlab"
   },
   {
-    "job_id": 321008,
+    "job_id": 712473,
     "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "company_name": "Get It Recruit - Information Technology",
+    "skills": "pandas"
+  },
+  {
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "company_name": "Get It Recruit - Information Technology",
+    "skills": "tableau"
+  },
+  {
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "company_name": "Get It Recruit - Information Technology",
+    "skills": "looker"
+  },
+  {
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "company_name": "Get It Recruit - Information Technology",
+    "skills": "sas"
+  },
+  {
+    "job_id": 1246069,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-12-08 09:16:37",
+    "company_name": "Plexus Resource Solutions",
+    "skills": "python"
+  },
+  {
+    "job_id": 1246069,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-12-08 09:16:37",
+    "company_name": "Plexus Resource Solutions",
     "skills": "mysql"
   },
   {
-    "job_id": 321008,
+    "job_id": 1246069,
     "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
-    "skills": "postgresql"
-  },
-  {
-    "job_id": 321008,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
-    "skills": "sql server"
-  },
-  {
-    "job_id": 321008,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-12-08 09:16:37",
+    "company_name": "Plexus Resource Solutions",
     "skills": "aws"
   },
   {
-    "job_id": 321008,
+    "job_id": 456042,
     "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
-    "skills": "ruby"
-  },
-  {
-    "job_id": 321008,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
-    "skills": "tableau"
-  },
-  {
-    "job_id": 321008,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "111175.0",
-    "job_posted_date": "2023-02-17 17:05:59",
-    "company_name": "Bixal",
-    "skills": "power bi"
-  },
-  {
-    "job_id": 572735,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "110000.0",
-    "job_posted_date": "2023-10-10 23:18:50",
-    "company_name": "Insight Global",
-    "skills": "python"
-  },
-  {
-    "job_id": 572735,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "110000.0",
-    "job_posted_date": "2023-10-10 23:18:50",
-    "company_name": "Insight Global",
-    "skills": "excel"
-  },
-  {
-    "job_id": 572735,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "110000.0",
-    "job_posted_date": "2023-10-10 23:18:50",
-    "company_name": "Insight Global",
-    "skills": "tableau"
-  },
-  {
-    "job_id": 81442,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "105000.0",
-    "job_posted_date": "2023-04-20 19:02:21",
-    "company_name": "Eliassen Group",
+    "salary_year_avg": "151500.0",
+    "job_posted_date": "2023-09-25 10:59:56",
+    "company_name": "Get It Recruit - Healthcare",
     "skills": "sql"
   },
   {
-    "job_id": 81442,
+    "job_id": 456042,
     "job_title": "Data Analyst",
-    "salary_year_avg": "105000.0",
-    "job_posted_date": "2023-04-20 19:02:21",
-    "company_name": "Eliassen Group",
-    "skills": "sql server"
-  },
-  {
-    "job_id": 81442,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "105000.0",
-    "job_posted_date": "2023-04-20 19:02:21",
-    "company_name": "Eliassen Group",
-    "skills": "oracle"
-  },
-  {
-    "job_id": 81442,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "105000.0",
-    "job_posted_date": "2023-04-20 19:02:21",
-    "company_name": "Eliassen Group",
-    "skills": "excel"
-  },
-  {
-    "job_id": 81442,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "105000.0",
-    "job_posted_date": "2023-04-20 19:02:21",
-    "company_name": "Eliassen Group",
-    "skills": "power bi"
-  },
-  {
-    "job_id": 81442,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "105000.0",
-    "job_posted_date": "2023-04-20 19:02:21",
-    "company_name": "Eliassen Group",
-    "skills": "word"
-  },
-  {
-    "job_id": 81442,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "105000.0",
-    "job_posted_date": "2023-04-20 19:02:21",
-    "company_name": "Eliassen Group",
-    "skills": "sharepoint"
-  },
-  {
-    "job_id": 81442,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "105000.0",
-    "job_posted_date": "2023-04-20 19:02:21",
-    "company_name": "Eliassen Group",
-    "skills": "ssrs"
-  },
-  {
-    "job_id": 786474,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "100500.0",
-    "job_posted_date": "2023-06-21 02:00:05",
-    "company_name": "Govini",
+    "salary_year_avg": "151500.0",
+    "job_posted_date": "2023-09-25 10:59:56",
+    "company_name": "Get It Recruit - Healthcare",
     "skills": "python"
   },
   {
-    "job_id": 786474,
+    "job_id": 456042,
     "job_title": "Data Analyst",
-    "salary_year_avg": "100500.0",
-    "job_posted_date": "2023-06-21 02:00:05",
-    "company_name": "Govini",
+    "salary_year_avg": "151500.0",
+    "job_posted_date": "2023-09-25 10:59:56",
+    "company_name": "Get It Recruit - Healthcare",
     "skills": "r"
   },
   {
-    "job_id": 764317,
+    "job_id": 479485,
     "job_title": "Data Analyst",
-    "salary_year_avg": "100000.0",
-    "job_posted_date": "2023-11-29 14:43:26",
-    "company_name": "KTek Resourcing",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
     "skills": "sql"
   },
   {
-    "job_id": 764317,
+    "job_id": 479485,
     "job_title": "Data Analyst",
-    "salary_year_avg": "100000.0",
-    "job_posted_date": "2023-11-29 14:43:26",
-    "company_name": "KTek Resourcing",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
     "skills": "python"
   },
   {
-    "job_id": 764317,
+    "job_id": 479485,
     "job_title": "Data Analyst",
-    "salary_year_avg": "100000.0",
-    "job_posted_date": "2023-11-29 14:43:26",
-    "company_name": "KTek Resourcing",
-    "skills": "excel"
-  },
-  {
-    "job_id": 1768031,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "90000.0",
-    "job_posted_date": "2023-04-28 18:56:21",
-    "company_name": "SpringbokIT",
-    "skills": "sql"
-  },
-  {
-    "job_id": 1768031,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "90000.0",
-    "job_posted_date": "2023-04-28 18:56:21",
-    "company_name": "SpringbokIT",
-    "skills": "sql server"
-  },
-  {
-    "job_id": 1768031,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "90000.0",
-    "job_posted_date": "2023-04-28 18:56:21",
-    "company_name": "SpringbokIT",
-    "skills": "ssrs"
-  },
-  {
-    "job_id": 72936,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "87500.0",
-    "job_posted_date": "2023-07-17 21:42:52",
-    "company_name": "Angi",
-    "skills": "sql"
-  },
-  {
-    "job_id": 72936,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "87500.0",
-    "job_posted_date": "2023-07-17 21:42:52",
-    "company_name": "Angi",
-    "skills": "python"
-  },
-  {
-    "job_id": 72936,
-    "job_title": "Data Analyst",
-    "salary_year_avg": "87500.0",
-    "job_posted_date": "2023-07-17 21:42:52",
-    "company_name": "Angi",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
     "skills": "r"
   },
   {
-    "job_id": 72936,
+    "job_id": 479485,
     "job_title": "Data Analyst",
-    "salary_year_avg": "87500.0",
-    "job_posted_date": "2023-07-17 21:42:52",
-    "company_name": "Angi",
-    "skills": "excel"
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
+    "skills": "golang"
   },
   {
-    "job_id": 928979,
+    "job_id": 479485,
     "job_title": "Data Analyst",
-    "salary_year_avg": "85000.0",
-    "job_posted_date": "2023-06-26 14:04:16",
-    "company_name": "Insight Global",
-    "skills": "sql"
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
+    "skills": "elasticsearch"
   },
   {
-    "job_id": 928979,
+    "job_id": 479485,
     "job_title": "Data Analyst",
-    "salary_year_avg": "85000.0",
-    "job_posted_date": "2023-06-26 14:04:16",
-    "company_name": "Insight Global",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
+    "skills": "aws"
+  },
+  {
+    "job_id": 479485,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
+    "skills": "bigquery"
+  },
+  {
+    "job_id": 479485,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
+    "skills": "gcp"
+  },
+  {
+    "job_id": 479485,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
+    "skills": "pandas"
+  },
+  {
+    "job_id": 479485,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
+    "skills": "scikit-learn"
+  },
+  {
+    "job_id": 479485,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
+    "skills": "looker"
+  },
+  {
+    "job_id": 479485,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-03-15 16:59:55",
+    "company_name": "Level",
+    "skills": "kubernetes"
+  },
+  {
+    "job_id": 405581,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-05-01 13:00:20",
+    "company_name": "CyberCoders",
     "skills": "python"
   },
   {
-    "job_id": 928979,
+    "job_id": 405581,
     "job_title": "Data Analyst",
-    "salary_year_avg": "85000.0",
-    "job_posted_date": "2023-06-26 14:04:16",
-    "company_name": "Insight Global",
-    "skills": "react"
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-05-01 13:00:20",
+    "company_name": "CyberCoders",
+    "skills": "java"
   },
   {
-    "job_id": 928979,
+    "job_id": 405581,
     "job_title": "Data Analyst",
-    "salary_year_avg": "85000.0",
-    "job_posted_date": "2023-06-26 14:04:16",
-    "company_name": "Insight Global",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-05-01 13:00:20",
+    "company_name": "CyberCoders",
+    "skills": "r"
+  },
+  {
+    "job_id": 405581,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-05-01 13:00:20",
+    "company_name": "CyberCoders",
+    "skills": "javascript"
+  },
+  {
+    "job_id": 405581,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-05-01 13:00:20",
+    "company_name": "CyberCoders",
+    "skills": "c++"
+  },
+  {
+    "job_id": 405581,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-05-01 13:00:20",
+    "company_name": "CyberCoders",
     "skills": "tableau"
   },
   {
-    "job_id": 928979,
+    "job_id": 405581,
     "job_title": "Data Analyst",
-    "salary_year_avg": "85000.0",
-    "job_posted_date": "2023-06-26 14:04:16",
-    "company_name": "Insight Global",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-05-01 13:00:20",
+    "company_name": "CyberCoders",
     "skills": "power bi"
   },
   {
-    "job_id": 659843,
+    "job_id": 405581,
     "job_title": "Data Analyst",
-    "salary_year_avg": "75000.0",
-    "job_posted_date": "2023-12-23 18:04:08",
-    "company_name": "New York Psychotherapy and Counseling Center",
+    "salary_year_avg": "145000.0",
+    "job_posted_date": "2023-05-01 13:00:20",
+    "company_name": "CyberCoders",
+    "skills": "qlik"
+  },
+  {
+    "job_id": 1090975,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "140500.0",
+    "job_posted_date": "2023-03-24 07:06:43",
+    "company_name": "Uber",
     "skills": "sql"
   },
   {
-    "job_id": 659843,
+    "job_id": 1090975,
     "job_title": "Data Analyst",
-    "salary_year_avg": "75000.0",
-    "job_posted_date": "2023-12-23 18:04:08",
-    "company_name": "New York Psychotherapy and Counseling Center",
+    "salary_year_avg": "140500.0",
+    "job_posted_date": "2023-03-24 07:06:43",
+    "company_name": "Uber",
     "skills": "python"
   },
   {
-    "job_id": 659843,
+    "job_id": 1090975,
     "job_title": "Data Analyst",
-    "salary_year_avg": "75000.0",
-    "job_posted_date": "2023-12-23 18:04:08",
-    "company_name": "New York Psychotherapy and Counseling Center",
+    "salary_year_avg": "140500.0",
+    "job_posted_date": "2023-03-24 07:06:43",
+    "company_name": "Uber",
     "skills": "r"
   },
   {
-    "job_id": 659843,
+    "job_id": 1090975,
     "job_title": "Data Analyst",
-    "salary_year_avg": "75000.0",
-    "job_posted_date": "2023-12-23 18:04:08",
-    "company_name": "New York Psychotherapy and Counseling Center",
+    "salary_year_avg": "140500.0",
+    "job_posted_date": "2023-03-24 07:06:43",
+    "company_name": "Uber",
+    "skills": "swift"
+  },
+  {
+    "job_id": 1090975,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "140500.0",
+    "job_posted_date": "2023-03-24 07:06:43",
+    "company_name": "Uber",
     "skills": "excel"
   },
   {
-    "job_id": 659843,
+    "job_id": 1090975,
     "job_title": "Data Analyst",
-    "salary_year_avg": "75000.0",
-    "job_posted_date": "2023-12-23 18:04:08",
-    "company_name": "New York Psychotherapy and Counseling Center",
-    "skills": "word"
+    "salary_year_avg": "140500.0",
+    "job_posted_date": "2023-03-24 07:06:43",
+    "company_name": "Uber",
+    "skills": "tableau"
   },
   {
-    "job_id": 659843,
+    "job_id": 1090975,
     "job_title": "Data Analyst",
-    "salary_year_avg": "75000.0",
-    "job_posted_date": "2023-12-23 18:04:08",
-    "company_name": "New York Psychotherapy and Counseling Center",
-    "skills": "sharepoint"
+    "salary_year_avg": "140500.0",
+    "job_posted_date": "2023-03-24 07:06:43",
+    "company_name": "Uber",
+    "skills": "looker"
   },
   {
-    "job_id": 659843,
+    "job_id": 1482852,
     "job_title": "Data Analyst",
-    "salary_year_avg": "75000.0",
-    "job_posted_date": "2023-12-23 18:04:08",
-    "company_name": "New York Psychotherapy and Counseling Center",
-    "skills": "outlook"
+    "salary_year_avg": "138500.0",
+    "job_posted_date": "2023-11-23 12:38:59",
+    "company_name": "Overmind",
+    "skills": "sql"
+  },
+  {
+    "job_id": 1482852,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "138500.0",
+    "job_posted_date": "2023-11-23 12:38:59",
+    "company_name": "Overmind",
+    "skills": "python"
+  },
+  {
+    "job_id": 1326467,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "135000.0",
+    "job_posted_date": "2023-06-26 17:00:18",
+    "company_name": "EPIC Brokers",
+    "skills": "excel"
+  },
+  {
+    "job_id": 479965,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "135000.0",
+    "job_posted_date": "2023-02-26 01:04:44",
+    "company_name": "InvestM Technology LLC",
+    "skills": "sql"
+  },
+  {
+    "job_id": 479965,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "135000.0",
+    "job_posted_date": "2023-02-26 01:04:44",
+    "company_name": "InvestM Technology LLC",
+    "skills": "excel"
+  },
+  {
+    "job_id": 479965,
+    "job_title": "Data Analyst",
+    "salary_year_avg": "135000.0",
+    "job_posted_date": "2023-02-26 01:04:44",
+    "company_name": "InvestM Technology LLC",
+    "skills": "power bi"
   }
 ]*/
